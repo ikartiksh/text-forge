@@ -4,10 +4,9 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
+	"github.com/skip2/go-qrcode"
 	"image/png"
 	"strings"
-
-	"github.com/skip2/go-qrcode"
 )
 
 func FormatJSON(input string) (string, error) {
